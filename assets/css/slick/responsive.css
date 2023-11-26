@@ -58,36 +58,156 @@
     ##Screen = B/w 320px to 479px
   */
   
+  @media only screen and (max-width: 767px) {
+
+  .reviewTop_MenuArea .navbar .navBar_menuItems {
+    display: unset;
+    justify-content: unset;
+  }
+  .reviewTop_MenuArea .navbar .navBar_menuItems .topMenu_Button {
+    font-size: 10px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .reviewTop_MenuArea .topMenu_bodyContent {
+    padding-left: unset;
+  }
+  .reviewTop_MenuArea .topMenu_bodyContent .firstText p {
+    margin-top: 10px;
+  }
+  .reviewTop_MenuArea .topMenu_bodyContent .secondText h1 {
+    font-size: 30px;
+  }
+  .reviewTop_MenuArea .topMenu_bodyImagebox {
+    padding: unset;
+  }
+  .reviewTop_MenuArea .topMenu_bodyImagebox img {
+    width: 100%;
+  }
+  .foodsMenuAnd_itemsSection {
+    padding: 40px 0;
+  }
+  .foodsMenuAnd_itemsSection .polularFood_itemsHeader h1 {
+    font-size: 31px;
+  }
+  .foodsMenuAnd_itemsSection .foodsItems_imageAndName {
+    margin-top: 15px;
+  } 
+  .foodsItems_imageAndName .slick-next:after {
+    width: 134px;
+  }
+  .foodsItems_imageAndName .slick-prev:after {
+    width: 134px;
+    left: -150px;
+  }
+  .deliciousFoods_menuTab .nav-tabs .nav-link ul li {
+    padding-left: 0;
+    font-size: 9px;
+  }
+  .deliciousFoods_menuTab .nav-tabs {
+    width: 100%;
+  }
+  .deliciousFoods_menuTab .nav-tabs .nav-link {
+    padding: 8px;
+  }
+  .deliciousFoods_menuInformation {
+    display: flow;
+    margin-top: 35px;
+  }
+  .deliciousFoods_MenuDetails .foodsMenu_detailInfoBox:nth-child(1) .priceLine .priceInline {
+    width: 127px;
+  }
+  .deliciousFoods_MenuDetails .foodsMenu_detailInfoBox:nth-child(2) .priceLine .priceInline {
+    width: 110px;
+  }
+  .deliciousFoods_MenuDetails .foodsMenu_detailInfoBox:nth-child(3) .priceLine .priceInline {
+    width: 155px;
+  }
+  .deliciousFoods_MenuDetails .foodsMenu_detailInfoBox:nth-child(4) .priceLine .priceInline {
+    width: 105px;
+    border-bottom: 0.5px solid rgb(4 4 4 / 19%);
+    margin-left: -30px;
+    margin-bottom: 35px;
+  }
+  .foodsOrder_infoSection .foodsOrder_infoImageAndContent {
+    display: flow;
+  }
+  .foodsOrder_infoContent {
+    padding: 25px 0;
+  }
+  .foodsOrder_infoImageAndContent .foodsOrder_imageBox img {
+    width: 100%;
+    max-width: 100%;
+  }
+  .foodsFeature_rowArea .featureInfoContainer .slick-next {
+    right: 80%;
+  }
+  .foodsFeature_wrpSection .bannerColsArea .footerBannerWrp {
+    display: flow;
+  }
+  .footerBannerWrp .firstFooterBannerArea {
+    width: 100%;
+  }
+  .footerBannerWrp .secondFooterBannerArea {
+    width: 100%;
+  }
+  .foodsFeature_wrpSection {
+    padding: 50px 0;
+  }
+  .SpecialChef_SectionArea .chefHeaderTittle h1 {
+    font-size: 30px;
+    margin: 0 0 30px 0;
+  }
+  .newsAndArticle_sectionArea {
+    padding: 50px 0;
+    padding-bottom: 180px;
+  }
+  .newsAndArticle_sectionArea .newsAndArticle_Header h2 {
+    font-size: 27px;
+    margin: 0 0 10px 0;
+  }
+  .newsAndArticle_sectionArea .newsAndArticle_cardWrapper {
+    margin-top: 25px;
+  }
+  .contactInfoSection .contactDetailWrp {
+    flex-wrap: wrap;
+    top: -100px;
+  }
+  .contactDetailWrp .contactDetailContainer:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background: transparent;
+  }
+  .footerSectionStart {
+    margin-top: -212px;
+  }
+  .footerSectionStart .footerFullContainer {
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: 30px;
+    margin-top: 45px;
+  }
+  .footerSectionStart .copyRightArea {
+    margin-top: 10px;
+  }
+  .footerSectionStart .copyRightArea img {
+    width: 70px;
+    object-fit: cover;
+    margin-left: 80%;
+  }
+  .SpecialChef_SectionArea .chefInformationArea {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 13px;
+  }
+
+
+  }
+
   @media (min-width: 320px) and (max-width: 480px) {
-    
-    .reviewTop_MenuArea .navbar {
-        padding: 0 20px;
-    }
-    .reviewTop_MenuArea .navbar .navBar_menuItems {
-        display: unset;
-        justify-content: unset;
-    }
-    .reviewTop_MenuArea .navbar .navBar_menuItems .topMenu_Button {
-        font-size: 10px;
-        padding: 5px 15px;
-        border-radius: 15px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    .reviewTop_MenuArea .topMenu_bodyContent {
-        padding-left: unset;
-    }
-    .reviewTop_MenuArea .topMenu_bodyContent .firstText p {
-        margin-top: 10px;
-    }
-    .reviewTop_MenuArea .topMenu_bodyContent .secondText h1 {
-        font-size: 30px;
-    }
-    .reviewTop_MenuArea .topMenu_bodyImagebox {
-        padding: unset;
-    }
-    .reviewTop_MenuArea .topMenu_bodyImagebox img {
-        width: 100%;
-    }
 
   }
